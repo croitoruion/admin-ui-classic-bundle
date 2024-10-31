@@ -257,10 +257,6 @@ pimcore.object.tags.advancedManyToManyRelation = Class.create(pimcore.object.tag
                 column.width = columnWidth;
             }
 
-            if(typeof column.width !== "undefined") {
-                delete column.flex;
-            }
-
             if(typeof column.listeners === "undefined") {
                 column.listeners = {};
             }
